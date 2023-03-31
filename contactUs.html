@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contactUs.css" />
+    <title>contact</title>
+  </head>
+  <body>
+    <div class="h1">
+      <h1>Student registration form</h1>
+    </div>
+    <div class="center">
+      <div class="registration-form">
+        <div class="form-design">
+          <form action="info.php">
+            <label for="name"
+              >Full Name <input type="text" id="name" placeholder=" Enter your name" pattern="^[a-zA-Z ]*$" title="Only Charecters are allowed" required
+            /></label>
+            <label for="email"
+              >Your Email <input type="Email" id="email" placeholder="  Enter your email" pattern="^[A-Za-z0-9._]+[@][a-zA-Z._]+[\.][a-z]*$" title="Please enter a valid Email" required
+            /></label>
+            <label for="number"
+              >Contact Number <input type="tel" id="number" placeholder=" Enter your number" pattern="[6789][0-9]{9}" title="Please enter a valid indian number" required
+            /></label>
+            <label for="father"
+              >Father's Name <input type="text" id="father" placeholder="  Enter your father name" pattern="^[a-zA-Z ]*$" title="Only Charecters are allowed" required
+            /></label>
+            <label for="10%"
+              >10th Percentage<input type="number" id="10%" placeholder="   10%" pattern="[0-9]+([\.][0-9]+)?" step="0.01" title="Please enter your percetages in 2 digits after decimal " required
+            /></label>
+            <label for="12%"
+              >12th Percentage<input type="number" id="12%" placeholder="   12%" pattern="[0-9]+([\.][0-9]+)?" step="0.01" required
+            /></label>
+            <label for="">Gender</label>
+            <label for="male">
+              <input type="radio" name="gender" id="male" />Male</label
+            >
+            <label for="female"
+              ><input type="radio" name="gender" id="female" />Female</label
+            >
+            <label for="other"
+              ><input type="radio" name="gender" id="other" />Other</label
+            >
+            <label for="dob"
+              >Date Of Birth <input type="date" name="date" id="dob"
+            /></label>
+            <label for="branch"
+              >Select Branch
+              <select name="branch" id="branch">
+                <option value="CSE">CSE</option>
+                <option value="IT">IT</option>
+                <option value="ME">ME</option>
+                <option value="EC">EC</option>
+              </select></label
+            >
+            <div class="button">
+              <label for="">
+                <input type="submit" value="submit" />
+                <input type="reset" value="Resest" />
+              </label>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

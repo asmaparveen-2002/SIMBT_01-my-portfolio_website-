@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASMA Portfolio</title>
+    <script src="https://kit.fontawesome.com/7368160ea5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="contactUs.css">
+    
+  </head>
+  <body>
+    <header><h1 class="header">My Portfolio</h1></header>
+    <!-- -------------------------------------navigation------------------------------------- -->
+    <input type="checkbox" id="check"> 
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>    
+    <div class="sidebar"> 
+        <!-- <header>My App</header> -->
+        <ul>
+            <li><a href="#Home__">Home</a></li>
+            <li><a href="#about_me">About</a></li>
+            <li><a href="#resume">My Skills</a></li>
+            <!-- <li><a href="#s4">Projects</a></li> -->
+            <li><a href="#resume_link">Contact Me</a></li>
+            <li><a href="#connect_me">Connect to Me</a></li>
+        </ul>
+    </div>
+    <!-- -----------------------------------------home------------------------------------------- -->
+    <section id="Home__">
+      
+      <div class="first_page">
+        <img src="img/firstpage.jpg" alt="">
+        <div class="content">
+          <h1 class="welcome">Hii Welcome</h1>
+          <p class="asma"> I am Asma Parveen</p>
+          <div class="about_button"><button><a href="#about_me"> More About Me</a></button></div>
+      </div>
+        </div>
+        
+    </section>
+    <!-- ---------------------------------------about me----------------------------------------- -->
+     <section id="about_me">
+      <div class="about_container">
+        <div class="my_image">
+        <img src="img/Asma.jpeg" alt="my_image">
+        </div>
+        <div class="some_aboutme">
+          <h1 class="detail_info">More About me</h1>
+        <p class="info">I am <span> Asma Parveen</span>, Currently persuing B.Tech. from Bansal Institue of Research Technology & science, Bhopal and I have done my Schooling from Govt. Girls Hr. Sec. School , Bhopal (MP) .</p>
+        
+        <a class="resume_download" href="img/myresume.jpeg" download="">Download Resume</a>
+        </div>
+      </div>
+    </div>
+     </section>
+     <!-- -------------------------------My Resume-------------------------- -->
+     <section id="resume" class="my-resume">
+      <div class="my_skills">
+      <h1 class="skills"> My Skills </h1>
+    </div>
+      <div>
+        <div class="background"><div class="html">HTML   <span> 70%</span></div></div>
+        <div class="background"><div class="css">CSS  <span>60%</span> </div></div>
+        <div class="background"><div class="javascript">JAVASCRIPT  <span>20% </span></div></div>
+        <div class="background"><div class="mysql">MySQL  <span> 50%</span></div></div>
+        <div class="background"><div class="c">C++  <span> 65%</span></div></div>
+        <div class="background"><div class="python">python  <span> 50%</span></div></div>
+
+        <p  class="resume_about">I am a fresher and I am comfortable on these programming languages. I have done some projects on these languages . </p>
+
+        
+      </div>
+     </section >
+
+     
+    <!-- -----------------------------------contact me------------------------- -->
+   
+  
+  
+    <div id="resume_link" class="h1">
+      <h1>Contact Me</h1>
+    </div>
+    <div class="center">
+      <div class="registration-form">
+        <div class="form-design">
+          <form action="#">
+            <label for="name"
+              >Full Name <input type="text" id="name" placeholder=" Enter your name" pattern="^[a-zA-Z ]*$" title="Only Charecters are allowed" required
+            /></label>
+            <label for="email"
+              >Your Email <input type="Email" id="email" placeholder="  Enter your email" pattern="^[A-Za-z0-9._]+[@][a-zA-Z._]+[\.][a-z]*$" title="Please enter a valid Email" required
+            /></label>
+            <label for="number"
+              >Contact Number <input type="tel" id="number" placeholder=" Enter your number" pattern="[6789][0-9]{9}" title="Please enter a valid indian number" required
+            /></label>
+            <label for="typesomething">
+            <textarea name="text" id="typesomething" cols="30" rows="4" placeholder="Shoot your thoughts here"></textarea></label>
+            <div class="button">
+              <label for="">
+                <input type="submit" value="Submit" onclick="userinput()" />
+                <input type="reset" value="Resest" />
+              </label>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  <!-- -------------------------------------------footer--------------------------------------- -->
+  <footer id="connect_me">
+    <div class="social">
+      <a class="facebook" href=""><i class="fa fa-facebook"></i></a>
+      <!--<a class="home" href="https://maps.app.goo.gl/zg7G93NeYEnzdFf6A"><i class="fa fa-home"></i></a>-->
+      <a class="github" href="https://github.com/asmaparveen-2002"><i class="fa fa-github"></i></a>
+      <a class="instagram" href="https://instagram.com/asma_parveen._?igshid=MjljNjAzYmU=="><i class="fa fa-instagram"></i></a>
+      <a class="phone" href="tel:+917440898149"><i class="fa fa-phone"></i></a>
+      <a class="mail" href="mailto:asmaparveen1509@gmail.com"><i class="fa fa-envelope"></i></a>
+      <a class="linkdln" href="https://www.linkedin.com/in/asma-parveen-a72100225"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <p class="copyright">Made & Developed by Asma copyright &copy; 2022-23</p>
+  </footer>
+ 
+<script src="my.js"></script>
+ 
+
+  
+  
+ </body>
+ </html>
+  
+
+
+   
